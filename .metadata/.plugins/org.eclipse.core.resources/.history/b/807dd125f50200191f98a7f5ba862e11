@@ -1,0 +1,27 @@
+package testyResty.test01;
+
+import java.awt.Color;
+import java.io.IOException;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+@Path("/ballotGraph/{ballotId}")
+public class MyResource {
+
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public String getIt(@PathParam("ballotId") String ballotId) {
+    	String url = "dupa";
+    	Plot plot = Plot.plot(null).series(ballotId, Plot.data().xy(1,2).xy(2,3), null);
+        try {
+            plot.save(ballotId, "png");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return url;
+    }
+}

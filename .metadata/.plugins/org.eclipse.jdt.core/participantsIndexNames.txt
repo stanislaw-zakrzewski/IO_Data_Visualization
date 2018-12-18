@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+C:\Users\stz\Desktop\testyRESTY\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1906606148.index
+\DataVisualization\src\main\java
+C:\Users\stz\Desktop\testyRESTY\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2112676824.index
+\DataVisualization\src\main\java
+C:\Users\stz\Desktop\testyRESTY\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\423854433.index
+\dataVisualization\src\main\java
+C:\Users\stz\Desktop\testyRESTY\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2119924823.index
+\test01\src\main\java
